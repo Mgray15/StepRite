@@ -106,7 +106,7 @@ div.grids > div.edit-form {
 }
 
 /* Inputs */
-input[type=text], input[type=password] {
+input[type=text]:not(.crud_page), input[type=password]:not(.crud_page){
 	background: #E6E6E6;
 	display: block;
 	margin: 0 0 10px 0;
@@ -117,7 +117,7 @@ input[type=text], input[type=password] {
 	padding: 8px;
 }
 
-input[type=submit], .button {
+input[type=submit]:not(.btn-large), .button {
 	border: none;
 	padding: 5px;
 	background: #E6E6E6;
